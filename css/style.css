@@ -142,3 +142,33 @@ body{
     color: rgba(255, 255, 255, 0.81);
     margin-top: 25px;
 }
+
+/* description */
+.description{
+    margin-bottom: 69px;
+    background-color: #FEFEC9;
+}
+
+.description__content{
+    text-align: center;
+    padding-top: 60px;
+}
+
+.description__text{
+    max-width: 940px;
+    font-size: 18px;
+    line-height: 25px;
+    color: #47474F;
+    margin-bottom: 40px;
+}
+
+.description__btn{
+    display: inline-block;
+    padding: 13px 34px 20px;
+    font-size: 16px;
+    line-height: 20px;
+    color: #47474F;
+    border: 1px solid #47474F;
+    text-align: center;
+    margin-bottom: 59px;
+}
