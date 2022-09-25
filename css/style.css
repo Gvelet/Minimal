@@ -4,7 +4,12 @@
     box-sizing: border-box;
 }
 
-h1{
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
     padding: 0;
     margin: 0;
 }
@@ -202,6 +207,69 @@ body{
 
 .description__btn:hover:before{
 	height: 100%;
+}
+
+/* Brands */
+.brands{
+    margin-bottom: 69px;
+}
+
+.brands__title{
+    position: relative;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 36px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 28px;
+    margin-bottom: 43px;
+}
+
+.brands__title:after{
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    background: rgba(0, 0, 0, 0.09);
+    border-radius: 0px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.brands__body{
+    display: flex;
+    margin: 0px -15px;
+}
+
+.brands__column{
+    padding: 0px 10px;
+    flex: 0 1 33.333%;
+}
+
+.brands__item{
+    text-align: center;
+    align-items: center;
+}
+
+.brands__icon{
+    background-color: #F5F5F5;
+    margin-bottom: 38px;
+}
+
+.brands__icon-img{
+    padding: 50px 86px;
+}
+
+.brand__title{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 20px;
+    font-size: 16px;
+    line-height: 20px;
+    text-transform: uppercase;
 }
 
 /* footer */
