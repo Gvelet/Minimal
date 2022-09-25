@@ -28,18 +28,27 @@ p{
     margin: 0;
 }
 
-.container{
-    max-width: 940px;
-    padding: 0 10px;
-    margin: 0 auto;
-}
-
+html,
 body{
+    height: 100%;
     font-family: 'Vollkorn', serif;
     font-weight: 400;
     font-size: 15px;
     line-height: 22px;
     color: #333333;
+}
+
+.wrapper{
+    min-height: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+
+.container{
+    max-width: 940px;
+    padding: 0 10px;
+    margin: 0 auto;
 }
 
 /*Header*/
@@ -72,6 +81,10 @@ body{
 
 .menu__link:hover{
     color: #000000;
+}
+
+.main{
+    flex: 1 1 auto;
 }
 
 /*info*/
@@ -113,7 +126,6 @@ body{
 }
 
 .info__title{
-
     position: relative;
     font-family: 'Montserrat', sans-serif;
     font-size: 44px;
@@ -189,4 +201,9 @@ body{
 
 .description__btn:hover:before{
 	height: 100%;
+}
+
+/* footer */
+.footer{
+    color: #2B2B2B;
 }
