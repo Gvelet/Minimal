@@ -81,6 +81,7 @@ body{
 
 .menu__link:hover{
     color: #000000;
+    border-bottom: 1px solid #2B2B2B;
 }
 
 .main{
