@@ -437,6 +437,25 @@ body{
     color: #ABABAB;
 }
 
+/* contacts */
+.contacts{
+    background-image: url(../images/background-contact.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+
+}
+
+.contacts__title{
+    padding-top: 79px;
+}
+
+.contacts__body{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
 /* footer */
 .footer{
     background-color: #000;
