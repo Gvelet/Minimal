@@ -379,6 +379,64 @@ body{
     background-color: #F5F5F5;
 }
 
+/* rewiews */
+.rewiews{
+    background-color: #F5F5F5;
+}
+
+.rewiews__icon{
+    padding-top: 69px;
+    margin-bottom: 36px;
+    display: flex;
+    justify-content: center;
+}
+
+.rewiews__body{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 98px;
+}
+
+.rewiews__body::after{
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 2px;
+    height: 212px;
+    background-color: rgba(0, 0, 0, 0.04);
+}
+
+.rewiews__item{
+    text-align: center;
+}
+
+.rewiews__item + .rewiews__item{
+    padding-left: 60px;
+    margin-left: 54px;
+}
+
+.rewiews__text{
+    font-size: 26px;
+    line-height: 33px;
+    margin-bottom: 24px;
+    max-width: 338px;
+}
+
+.rewiews__avatar{
+    margin-bottom: 5px;
+}
+
+.rewiews__name{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: uppercase;
+    color: #ABABAB;
+}
+
 /* footer */
 .footer{
     background-color: #000;
