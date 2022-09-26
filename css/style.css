@@ -51,9 +51,10 @@ body{
 }
 
 .container{
-    max-width: 940px;
+    max-width: 960px;
     padding: 0 10px;
     margin: 0 auto;
+    box-sizing: content-box;
 }
 
 .title{
@@ -285,7 +286,7 @@ body{
 }
 
 .projects__column{
-    padding: 0px 5px;
+    padding: 0px 10px;
     flex: 0 1 33.333%;
     margin-bottom: 20px;
 }
@@ -297,7 +298,7 @@ body{
 }
 
 .projects__icon{
-    margin-bottom: -8px;
+    margin-bottom: -10px;
 }
 
 .projects__info{
@@ -324,16 +325,17 @@ body{
 
 .team{
     margin-top: 79px;
+    margin-bottom: 70px;
 }
 
 .team__body{
     display: flex;
     flex-wrap: wrap;
-    margin: 0px -5px;
+    margin: 0px -10px;
 }
 
 .team__column{
-    padding: 0px 5px;
+    padding: 0px 10px;
     flex: 0 1 25%;
     margin-bottom: 20px;
 }
