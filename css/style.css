@@ -452,8 +452,53 @@ body{
 
 .contacts__body{
     display: flex;
-    justify-content: space-between;
     text-align: center;
+    align-items: start;
+    justify-content: center;
+    padding-bottom: 75px;
+}
+
+.contacts__item{
+    max-width: 220px;
+}
+
+.contacts__item + .contacts__item{
+    margin-left: 175px;
+}
+
+.contacts__icon{
+    margin-bottom: 20px;
+}
+
+.contacts__item-title{
+    margin-bottom: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.contacts__adress,
+.contacts__social-link{
+    color: #212121;
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.contacts__adress{
+    margin-bottom: 20px;
+}
+
+.contact__social-item{
+    text-align: start;
+    max-width: 100px;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.contact__social-item img{
+    padding-right: 9px;
 }
 
 /* footer */
